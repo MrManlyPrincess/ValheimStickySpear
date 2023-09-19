@@ -7,8 +7,8 @@
     <ProjectGuid>{DEAF4438-8089-40ED-8175-398E1261D45B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ValheimCombatIncentives</RootNamespace>
-    <AssemblyName>ValheimCombatIncentives</AssemblyName>
+    <RootNamespace>ValheimStickySpear</RootNamespace>
+    <AssemblyName>ValheimStickySpear</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -73,9 +73,6 @@
     <Reference Include="MonoMod.Utils, Version=22.1.29.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MonoMod.Utils.22.1.29.1\lib\net452\MonoMod.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="StackingNotifications, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\libraries\Debug\StackingNotifications.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -88,11 +85,10 @@
     <Compile Include="Extensions\HitDataExtensions.cs" />
     <Compile Include="Extensions\Vector2iExtensions.cs" />
     <Compile Include="Extensions\Vector3Extensions.cs" />
-    <Compile Include="Patches\CharacterPatch.cs" />
-    <Compile Include="Patches\HumanoidPatch.cs" />
+    <Compile Include="Patches\ItemDropPatch.cs" />
+    <Compile Include="Patches\ProjectilePatch.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
-    <Compile Include="Utils.cs" />
-    <Compile Include="ValheimCombatIncentives.cs" />
+    <Compile Include="ValheimStickySpear.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

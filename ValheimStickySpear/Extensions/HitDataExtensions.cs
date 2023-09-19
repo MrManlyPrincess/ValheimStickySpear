@@ -1,4 +1,4 @@
-﻿namespace ValheimCombatIncentives.Extensions
+﻿namespace ValheimStickySpear.Extensions
 {
     public static class HitDataExtensions
     {

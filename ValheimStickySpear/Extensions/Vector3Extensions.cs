@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ValheimCombatIncentives.Extensions
+namespace ValheimStickySpear.Extensions
 {
     public static class Vector3Extensions
     {
